@@ -670,6 +670,7 @@ nav.fixed-top .nav-item .nav-link:before {
     background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
+    background-image: url("/static/images/background/creative2-banner-bg.jpg")
 }
 
 .banner:after {
@@ -1009,6 +1010,7 @@ section.services .service-item:hover .icon {
     background-attachment: fixed;
     position: relative;
     overflow: hidden;
+    background-image: url("/static/images/background/stats-bg.jpg")
 }
 
 .stats:after {
@@ -1260,6 +1262,7 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     background-attachment: fixed;
     position: relative;
     overflow: hidden;
+    background-image: url('/static/images/background/testimonials-bg.jpg')
 }
 
 .testimonials:after {
