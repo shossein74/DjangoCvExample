@@ -10,7 +10,7 @@
         <meta name="description" content="Kalvin Portfolio Template">
         <meta name="author" content="cosmos-themes">
 
-        <title>قالب تک صفحه ای رزومه و نمونه کار | نت کپی مرجع قالب و اسکریپت فارسی</title>
+        <title>اولین پروژه جنگو</title>
 
         <!-- favicon -->
         <link href="{% static 'images/favicon.ico" rel="icon" type="image/png">
@@ -44,8 +44,8 @@
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
                 <!-- LOGO -->
-                <a class="navbar-brand logo" href="index.html">
-                    نت کپی
+                <a class="navbar-brand logo" href="{% url 'home' %}">
+                   جنگو
                 </a>
 
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,14 +83,14 @@
         <section id="home" class="banner banner-centered" data-stellar-background-ratio=".7" data-scroll-index="0">
                 <!--Banner Content-->
                 <div class="banner-caption">
-                    <h1>سلام من نت کپی هستم</h1>
+                    <h1>سلام دوست عزیز </h1>
                     <p class="cd-headline clip mt-30">
-                        <span>مرجع قالب و اسکریپت های فارسی</span><br>
-                        <span class="blc">مرجع</span>
+                        <span>اولین پروژه جنگو توسط من</span><br>
+                        <span class="blc">مرجع قالب </span>
                         <span class="cd-words-wrapper">
-                            <b class="is-visible">قالب فارسی</b>
-                            <b>اسکریپت فارسی</b>
-                            <b>فایل لایه باز</b>
+                        
+                            <b class="is-visible">نت کپی</b>
+                            <b>netcopy.ir</b>
                         </span>
                     </p>
                 </div>
@@ -119,7 +119,7 @@
                         <div class="about-content">
                             <div class="about-heading">
                                 <h2>درباره من</h2>
-                                <span>مرجع قالب و اسکریپت های فارسی</span>
+                                <span>برنامه نویس جنگو</span>
                             </div>
                             <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد </p>
                             <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد </p>
@@ -405,7 +405,7 @@
                         <!--Blogs Item-->
                         <div class="blog-item">
                             <div class="blog-img">
-                                <a href="single-blog.html">
+                                <a href="{% url 'blog-single' %}">
                                     <img src="{% static 'images/blog/img-1.jpg' %}" alt="">
                                 </a>
                             </div>
@@ -414,7 +414,7 @@
                                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
                                 <div class="blog-meta">
                                     <span class="more">
-                                        <a href="single-blog.html">مطالعه بیشتر</a>
+                                        <a href="{% url 'blog-single' %}">مطالعه بیشتر</a>
                                     </span>
                                     <span class="date">
                                         22 مرداد 1400
@@ -425,7 +425,7 @@
                         <!--Blogs Item-->
                         <div class="blog-item">
                             <div class="blog-img">
-                                <a href="single-blog.html">
+                                <a href="{% url 'blog-single' %}">
                                     <img src="{% static 'images/blog/img-2.jpg' %}" alt="">
                                 </a>
                             </div>
@@ -434,7 +434,7 @@
                                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
                                 <div class="blog-meta">
                                     <span class="more">
-                                        <a href="single-blog.html">مطالعه بیشتر</a>
+                                        <a href="{% url 'blog-single' %}">مطالعه بیشتر</a>
                                     </span>
                                     <span class="date">
                                         22 مرداد 1400
@@ -445,7 +445,7 @@
                         <!--Blogs Item-->
                         <div class="blog-item">
                             <div class="blog-img">
-                                <a href="single-blog.html">
+                                <a href="{% url 'blog-single' %}">
                                     <img src="{% static 'images/blog/img-3.jpg' %}" alt="">
                                 </a>
                             </div>
@@ -454,7 +454,7 @@
                                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
                                 <div class="blog-meta">
                                     <span class="more">
-                                        <a href="single-blog.html">مطالعه بیشتر</a>
+                                        <a href="{% url 'blog-single' %}">مطالعه بیشتر</a>
                                     </span>
                                     <span class="date">
                                         22 مرداد 1400
@@ -465,7 +465,7 @@
                         <!--Blogs Item-->
                         <div class="blog-item">
                             <div class="blog-img">
-                                <a href="single-blog.html">
+                                <a href="{% url 'blog-single' %}">
                                     <img src="{% static 'images/blog/img-4.jpg' %}" alt="">
                                 </a>
                             </div>
@@ -474,7 +474,7 @@
                                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
                                 <div class="blog-meta">
                                     <span class="more">
-                                        <a href="single-blog.html">مطالعه بیشتر</a>
+                                        <a href="{% url 'blog-single' %}">مطالعه بیشتر</a>
                                     </span>
                                     <span class="date">
                                         22 مرداد 1400
@@ -487,7 +487,7 @@
                 <div class="row">
                     <div class="col text-center">
                         <div class="blog-button pt-40">
-                            <a class="main-btn" href="blogs-page.html">مشاهده بیشتر</a>
+                            <a class="main-btn" href="{% url 'blog-home' %}">مشاهده بیشتر</a>
                         </div>
                     </div>
                 </div>
@@ -504,10 +504,10 @@
                             <!--Testimonials Item-->
                             <div class="testimonial-item">
                                 <div class="author-img">
-                                    <img src="{% static 'images/testimonial/img-1.jpg' %}" alt="">
+                                    <img src="{% static 'images/testimonial/img-2.jpg' %}" alt="">
                                 </div>
-                                <h5>آدام همتی</h5>
-                                <span>کارگردان خلاق</span>
+                                <h5>زهرا محمدی</h5>
+                                <span>برنامه نویس اپلیکیشن</span>
                                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد </p>
                             </div>
                             <!--Testimonials Item-->
@@ -522,10 +522,10 @@
                             <!--Testimonials Item-->
                             <div class="testimonial-item">
                                 <div class="author-img">
-                                    <img src="{% static 'images/testimonial/img-1.jpg' %}" alt="">
+                                    <img src="{% static 'images/testimonial/img-0.jpg' %}" alt="">
                                 </div>
-                                <h5>آدام همتی</h5>
-                                <span>کارگردان خلاق</span>
+                                <h5>سید حسین طالبی</h5>
+                                <span>برنامه نویس جنگو</span>
                                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد </p>
                             </div>
                         </div>
@@ -599,7 +599,7 @@
                         <!--Contant Item-->
                         <div class="contact-info">
                             <h5>ایمیل</h5>
-                            <p>info@example.com</p>
+                            <p>s.hossein468@gmail.com</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
@@ -614,7 +614,7 @@
                     <div class="col-md-12">
                         <hr>
                         <p class="copy pt-30">
-                            فارسی و راست چین شده توسط <a style="color: dodgerblue;" href="https://netcopy.ir">نت کپی</a>
+                        مرجع قالب <a style="color: dodgerblue;" href="https://netcopy.ir">نت کپی</a>
                         </p>
                     </div>
                 </div>
